@@ -1,0 +1,11 @@
+- name: Install httpd
+  yum:
+    name: httpd
+    state: latest
+  become: True
+
+- name: Put standard index.html
+  template:
+    src: templates/var/www/html/index.html.j2
+    dest: /var/www/html/index.html
+  become: True

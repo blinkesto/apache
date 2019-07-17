@@ -1,0 +1,6 @@
+---
+
+modules:
+  - alias_module: modules/mod_alias.so
+  - authz_host_module: modules/mod_authz_host.so
+
