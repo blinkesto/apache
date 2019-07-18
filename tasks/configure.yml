@@ -1,0 +1,6 @@
+- name: Make config change
+  debug:
+    msg: Change made!
+  notify:
+    - restart apache
+
