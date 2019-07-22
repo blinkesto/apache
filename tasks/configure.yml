@@ -3,5 +3,5 @@
     src: templates/etc/httpd/conf/httpd.conf.j2
     dest: /etc/httpd/conf/httpd.conf
   become: True
-  notify:
-    - restart apache
+#  notify:
+#    - restart apache
